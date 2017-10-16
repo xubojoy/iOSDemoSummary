@@ -23,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title  = @"JSDownloadAnimation";
+    self.title  = @"下载炫酷动画";
     self.view.backgroundColor = XNColor(41, 158, 239, 1);
     
     [self initData];

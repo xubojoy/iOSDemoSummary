@@ -23,7 +23,7 @@
 
 - (void)initUI{
     UIImageView *image = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"cd_cycleImage"]];
-    image.frame =CGRectMake(50, 100, self.view.bounds.size.width-100, self.view.bounds.size.width-100);
+    image.frame =CGRectMake(50, 64, self.view.bounds.size.width-100, self.view.bounds.size.width-100);
     image.backgroundColor = [UIColor purpleColor];
     image.layer.cornerRadius = (self.view.bounds.size.width-100)/2;
     image.layer.masksToBounds = YES;

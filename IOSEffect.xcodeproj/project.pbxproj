@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C6D812C1F94B085007AA712 /* WaterDropsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D812B1F94B085007AA712 /* WaterDropsView.swift */; };
+		1C6D812E1F94B106007AA712 /* WaterDropController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D812D1F94B106007AA712 /* WaterDropController.swift */; };
 		1C7E62CE1F9456220031BABD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7E62CD1F9456220031BABD /* AppDelegate.m */; };
 		1C7E62D41F9456220031BABD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C7E62D21F9456220031BABD /* Main.storyboard */; };
 		1C7E62D61F9456220031BABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7E62D51F9456220031BABD /* Assets.xcassets */; };
@@ -45,6 +47,9 @@
 
 /* Begin PBXFileReference section */
 		13714E0B3420366E45B2E49D /* libPods-IOSEffect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IOSEffect.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6D812A1F94B084007AA712 /* IOSEffect-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOSEffect-Bridging-Header.h"; sourceTree = "<group>"; };
+		1C6D812B1F94B085007AA712 /* WaterDropsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDropsView.swift; sourceTree = "<group>"; };
+		1C6D812D1F94B106007AA712 /* WaterDropController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDropController.swift; sourceTree = "<group>"; };
 		1C7E62C91F9456220031BABD /* IOSEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C7E62CC1F9456220031BABD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1C7E62CD1F9456220031BABD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -243,6 +248,8 @@
 		1C7E632E1F945B200031BABD /* third */ = {
 			isa = PBXGroup;
 			children = (
+				1C6D812B1F94B085007AA712 /* WaterDropsView.swift */,
+				1C6D812A1F94B084007AA712 /* IOSEffect-Bridging-Header.h */,
 			);
 			path = third;
 			sourceTree = "<group>";
@@ -276,6 +283,7 @@
 				1C7E63C11F948FCF0031BABD /* RotateViewController.m */,
 				1C7E63C31F94A2330031BABD /* DownLoadAnimationController.h */,
 				1C7E63C41F94A2330031BABD /* DownLoadAnimationController.m */,
+				1C6D812D1F94B106007AA712 /* WaterDropController.swift */,
 			);
 			path = "动画";
 			sourceTree = "<group>";
@@ -322,6 +330,7 @@
 				TargetAttributes = {
 					1C7E62C81F9456220031BABD = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -434,9 +443,11 @@
 				1C7E63221F945AD90031BABD /* UIImage+utils.m in Sources */,
 				1C7E63251F945AD90031BABD /* UINavigationController+Autorotate.m in Sources */,
 				1C7E631F1F945AD90031BABD /* DeviceUtils.m in Sources */,
+				1C6D812E1F94B106007AA712 /* WaterDropController.swift in Sources */,
 				1C7E63261F945AD90031BABD /* NSNull+JSON.m in Sources */,
 				1C7E632C1F945AD90031BABD /* UIView+Custom.m in Sources */,
 				1C7E631E1F945AD90031BABD /* DateUtils.m in Sources */,
+				1C6D812C1F94B085007AA712 /* WaterDropsView.swift in Sources */,
 				1C7E63211F945AD90031BABD /* FunctionUtils.m in Sources */,
 				1C7E63C51F94A2330031BABD /* DownLoadAnimationController.m in Sources */,
 				1C7E62F41F9459D80031BABD /* TimeUtils.m in Sources */,
@@ -582,6 +593,7 @@
 			baseConfigurationReference = BED72B8403DCFFD0E2C88D4A /* Pods-IOSEffect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 475AM2DC65;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/IOSEffect/IOSEffect-Prefix.pch";
@@ -590,6 +602,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.golfd.IOSEffect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IOSEffect/third/IOSEffect-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -599,6 +614,7 @@
 			baseConfigurationReference = CED6B2F51419DE71BF33A70C /* Pods-IOSEffect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 475AM2DC65;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/IOSEffect/IOSEffect-Prefix.pch";
@@ -607,6 +623,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.golfd.IOSEffect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IOSEffect/third/IOSEffect-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

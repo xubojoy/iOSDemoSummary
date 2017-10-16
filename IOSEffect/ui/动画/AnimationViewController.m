@@ -9,6 +9,9 @@
 #import "AnimationViewController.h"
 #import "RotateViewController.h"
 #import "DownLoadAnimationController.h"
+//#import "WaterDropController.swift"
+//#import "IOSEffect-Bridging-Header.h"
+#import "IOSEffect-Swift.h"
 @interface AnimationViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
 
@@ -61,6 +64,11 @@
             cell.textLabel.text = @"下载动画";
         }
             break;
+        case 2:
+        {
+            cell.textLabel.text = @"下雨动画";
+        }
+            break;
             
         default:
             break;
@@ -82,6 +90,13 @@
         {
             DownLoadAnimationController *downVc = [[DownLoadAnimationController alloc] init];
             [self.navigationController pushViewController:downVc animated:YES];
+        }
+            break;
+        case 2:
+        {
+            WaterDropController *waterVc = [[WaterDropController alloc] init];
+            [self.navigationController pushViewController:waterVc animated:YES];
+            
         }
             break;
         default:
