@@ -9,8 +9,6 @@
 #import "AnimationViewController.h"
 #import "RotateViewController.h"
 #import "DownLoadAnimationController.h"
-//#import "WaterDropController.swift"
-//#import "IOSEffect-Bridging-Header.h"
 #import "IOSEffect-Swift.h"
 @interface AnimationViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
