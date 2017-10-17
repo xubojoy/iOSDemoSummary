@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "AnimationViewController.h"
+#import "VideoPlayerController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
 
@@ -53,9 +54,18 @@
         {
             cell.textLabel.text = @"动画";
         }
+            break;
+        case 1:
+        {
+            cell.textLabel.text = @"视频";
+        }
+            break;
+            
         default:
             break;
     }
+    
+    
     return cell;
 }
 
@@ -68,6 +78,13 @@
             AnimationViewController *animationVc = [[AnimationViewController alloc] init];
             [self.navigationController pushViewController:animationVc animated:YES];
         }
+             break;
+        case 1:
+        {
+            VideoPlayerController *animationVc = [[VideoPlayerController alloc] init];
+            [self.navigationController pushViewController:animationVc animated:YES];
+        }
+            break;
         default:
             break;
     }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C336E9F1F95AE450018D2E9 /* VideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C336E9E1F95AE450018D2E9 /* VideoPlayerController.m */; };
 		1C6D812C1F94B085007AA712 /* WaterDropsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D812B1F94B085007AA712 /* WaterDropsView.swift */; };
 		1C6D812E1F94B106007AA712 /* WaterDropController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D812D1F94B106007AA712 /* WaterDropController.swift */; };
 		1C7E62CE1F9456220031BABD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7E62CD1F9456220031BABD /* AppDelegate.m */; };
@@ -42,11 +43,12 @@
 		1C7E63BF1F9484EE0031BABD /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7E63BE1F9484EE0031BABD /* AnimationViewController.m */; };
 		1C7E63C21F948FCF0031BABD /* RotateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7E63C11F948FCF0031BABD /* RotateViewController.m */; };
 		1C7E63C51F94A2330031BABD /* DownLoadAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7E63C41F94A2330031BABD /* DownLoadAnimationController.m */; };
-		85B58590C31617248A2E7CCA /* libPods-IOSEffect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13714E0B3420366E45B2E49D /* libPods-IOSEffect.a */; };
+		D25F7D962BE499A820440B37 /* Pods_IOSEffect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD413D2F9745B04D4E7BB78F /* Pods_IOSEffect.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		13714E0B3420366E45B2E49D /* libPods-IOSEffect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IOSEffect.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C336E9D1F95AE450018D2E9 /* VideoPlayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPlayerController.h; sourceTree = "<group>"; };
+		1C336E9E1F95AE450018D2E9 /* VideoPlayerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerController.m; sourceTree = "<group>"; };
 		1C6D812A1F94B084007AA712 /* IOSEffect-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOSEffect-Bridging-Header.h"; sourceTree = "<group>"; };
 		1C6D812B1F94B085007AA712 /* WaterDropsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDropsView.swift; sourceTree = "<group>"; };
 		1C6D812D1F94B106007AA712 /* WaterDropController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDropController.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		1C7E63C41F94A2330031BABD /* DownLoadAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownLoadAnimationController.m; sourceTree = "<group>"; };
 		BED72B8403DCFFD0E2C88D4A /* Pods-IOSEffect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSEffect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOSEffect/Pods-IOSEffect.debug.xcconfig"; sourceTree = "<group>"; };
 		CED6B2F51419DE71BF33A70C /* Pods-IOSEffect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSEffect.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOSEffect/Pods-IOSEffect.release.xcconfig"; sourceTree = "<group>"; };
+		DD413D2F9745B04D4E7BB78F /* Pods_IOSEffect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSEffect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85B58590C31617248A2E7CCA /* libPods-IOSEffect.a in Frameworks */,
+				D25F7D962BE499A820440B37 /* Pods_IOSEffect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +141,15 @@
 				CED6B2F51419DE71BF33A70C /* Pods-IOSEffect.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		1C336E9C1F95AE150018D2E9 /* 视频 */ = {
+			isa = PBXGroup;
+			children = (
+				1C336E9D1F95AE450018D2E9 /* VideoPlayerController.h */,
+				1C336E9E1F95AE450018D2E9 /* VideoPlayerController.m */,
+			);
+			path = "视频";
 			sourceTree = "<group>";
 		};
 		1C7E62C01F9456220031BABD = {
@@ -260,6 +272,7 @@
 				1C7E63B81F945D3F0031BABD /* basevc */,
 				1C7E63B61F945D180031BABD /* ViewController.h */,
 				1C7E63B51F945D180031BABD /* ViewController.m */,
+				1C336E9C1F95AE150018D2E9 /* 视频 */,
 				1C7E63BC1F9484CD0031BABD /* 动画 */,
 			);
 			path = ui;
@@ -291,7 +304,7 @@
 		1F41A596F03A85945E24E69E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				13714E0B3420366E45B2E49D /* libPods-IOSEffect.a */,
+				DD413D2F9745B04D4E7BB78F /* Pods_IOSEffect.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -391,9 +404,20 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IOSEffect/Pods-IOSEffect-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/JSDownloadView/JSDownloadView.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/MMPlayerView/MMPlayerView.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSDownloadView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMPlayerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -436,6 +460,7 @@
 				1C7E63231F945AD90031BABD /* NSStringUtils.m in Sources */,
 				1C7E632D1F945AD90031BABD /* UIViewController+Custom.m in Sources */,
 				1C7E63BB1F945D550031BABD /* BaseViewController.m in Sources */,
+				1C336E9F1F95AE450018D2E9 /* VideoPlayerController.m in Sources */,
 				1C7E631D1F945AD90031BABD /* ImageUtils.m in Sources */,
 				1C7E63291F945AD90031BABD /* Toast+UIView.m in Sources */,
 				1C7E631C1F945AD90031BABD /* ColorUtils.m in Sources */,
@@ -584,6 +609,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

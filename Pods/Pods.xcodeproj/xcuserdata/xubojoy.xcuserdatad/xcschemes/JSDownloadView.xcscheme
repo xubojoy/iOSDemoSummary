@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'DDCF2D28D39BEA49083FEF1D4D5D2EC3'
+               BlueprintIdentifier = 'BF6A6949614116C3D038166F6476EA63'
                BlueprintName = 'JSDownloadView'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libJSDownloadView.a'>
+               BuildableName = 'JSDownloadView.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

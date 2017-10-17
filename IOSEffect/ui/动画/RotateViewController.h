@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RotateViewController : UIViewController
+@interface RotateViewController : BaseViewController
 
 @end

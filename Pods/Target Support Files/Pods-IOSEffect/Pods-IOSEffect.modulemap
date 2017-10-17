@@ -1,0 +1,6 @@
+framework module Pods_IOSEffect {
+  umbrella header "Pods-IOSEffect-umbrella.h"
+
+  export *
+  module * { export * }
+}
