@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1C336E9F1F95AE450018D2E9 /* VideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C336E9E1F95AE450018D2E9 /* VideoPlayerController.m */; };
+		1C336EA21F95D4DD0018D2E9 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C336EA11F95D4DD0018D2E9 /* BaseNavigationController.m */; };
+		1C336EA41F95D6310018D2E9 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C336EA31F95D6310018D2E9 /* BaseNavigationController.swift */; };
+		1C336EA61F95D7210018D2E9 /* SwiftVideoPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C336EA51F95D7210018D2E9 /* SwiftVideoPlayerController.swift */; };
+		1C336EA91F95D7BF0018D2E9 /* CoverA.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C336EA71F95D7BE0018D2E9 /* CoverA.xib */; };
+		1C336EAA1F95D7BF0018D2E9 /* CoverA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C336EA81F95D7BF0018D2E9 /* CoverA.swift */; };
+		1C336EAF1F95DE7F0018D2E9 /* DemoSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C336EAE1F95DE7F0018D2E9 /* DemoSource.swift */; };
+		1C336EB21F95DFDF0018D2E9 /* PlayerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C336EB01F95DFDF0018D2E9 /* PlayerCollectionViewCell.swift */; };
+		1C336EB31F95DFDF0018D2E9 /* PlayerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C336EB11F95DFDF0018D2E9 /* PlayerCollectionViewCell.xib */; };
 		1C6D812C1F94B085007AA712 /* WaterDropsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D812B1F94B085007AA712 /* WaterDropsView.swift */; };
 		1C6D812E1F94B106007AA712 /* WaterDropController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6D812D1F94B106007AA712 /* WaterDropController.swift */; };
 		1C7E62CE1F9456220031BABD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7E62CD1F9456220031BABD /* AppDelegate.m */; };
@@ -49,6 +57,15 @@
 /* Begin PBXFileReference section */
 		1C336E9D1F95AE450018D2E9 /* VideoPlayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPlayerController.h; sourceTree = "<group>"; };
 		1C336E9E1F95AE450018D2E9 /* VideoPlayerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerController.m; sourceTree = "<group>"; };
+		1C336EA01F95D4DD0018D2E9 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		1C336EA11F95D4DD0018D2E9 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		1C336EA31F95D6310018D2E9 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		1C336EA51F95D7210018D2E9 /* SwiftVideoPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVideoPlayerController.swift; sourceTree = "<group>"; };
+		1C336EA71F95D7BE0018D2E9 /* CoverA.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoverA.xib; sourceTree = "<group>"; };
+		1C336EA81F95D7BF0018D2E9 /* CoverA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverA.swift; sourceTree = "<group>"; };
+		1C336EAE1F95DE7F0018D2E9 /* DemoSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSource.swift; sourceTree = "<group>"; };
+		1C336EB01F95DFDF0018D2E9 /* PlayerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCollectionViewCell.swift; sourceTree = "<group>"; };
+		1C336EB11F95DFDF0018D2E9 /* PlayerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerCollectionViewCell.xib; sourceTree = "<group>"; };
 		1C6D812A1F94B084007AA712 /* IOSEffect-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOSEffect-Bridging-Header.h"; sourceTree = "<group>"; };
 		1C6D812B1F94B085007AA712 /* WaterDropsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDropsView.swift; sourceTree = "<group>"; };
 		1C6D812D1F94B106007AA712 /* WaterDropController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDropController.swift; sourceTree = "<group>"; };
@@ -146,10 +163,27 @@
 		1C336E9C1F95AE150018D2E9 /* 视频 */ = {
 			isa = PBXGroup;
 			children = (
+				1C336EAD1F95DE7F0018D2E9 /* Datasource */,
+				1C336EA81F95D7BF0018D2E9 /* CoverA.swift */,
+				1C336EA71F95D7BE0018D2E9 /* CoverA.xib */,
 				1C336E9D1F95AE450018D2E9 /* VideoPlayerController.h */,
 				1C336E9E1F95AE450018D2E9 /* VideoPlayerController.m */,
+				1C336EA51F95D7210018D2E9 /* SwiftVideoPlayerController.swift */,
+				1C336EB01F95DFDF0018D2E9 /* PlayerCollectionViewCell.swift */,
+				1C336EB11F95DFDF0018D2E9 /* PlayerCollectionViewCell.xib */,
+				1C336EA01F95D4DD0018D2E9 /* BaseNavigationController.h */,
+				1C336EA11F95D4DD0018D2E9 /* BaseNavigationController.m */,
+				1C336EA31F95D6310018D2E9 /* BaseNavigationController.swift */,
 			);
 			path = "视频";
+			sourceTree = "<group>";
+		};
+		1C336EAD1F95DE7F0018D2E9 /* Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				1C336EAE1F95DE7F0018D2E9 /* DemoSource.swift */,
+			);
+			path = Datasource;
 			sourceTree = "<group>";
 		};
 		1C7E62C01F9456220031BABD = {
@@ -372,8 +406,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C7E62D91F9456220031BABD /* LaunchScreen.storyboard in Resources */,
+				1C336EB31F95DFDF0018D2E9 /* PlayerCollectionViewCell.xib in Resources */,
 				1C7E62D61F9456220031BABD /* Assets.xcassets in Resources */,
 				1C7E62D41F9456220031BABD /* Main.storyboard in Resources */,
+				1C336EA91F95D7BF0018D2E9 /* CoverA.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +487,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C336EA61F95D7210018D2E9 /* SwiftVideoPlayerController.swift in Sources */,
 				1C7E63C21F948FCF0031BABD /* RotateViewController.m in Sources */,
 				1C7E632B1F945AD90031BABD /* UIImage+imagePlus.m in Sources */,
 				1C7E62DC1F9456220031BABD /* main.m in Sources */,
@@ -458,7 +495,9 @@
 				1C7E63271F945AD90031BABD /* NSString+stringPlus.m in Sources */,
 				1C7E62F21F9459D80031BABD /* CommonItemTxt.m in Sources */,
 				1C7E63231F945AD90031BABD /* NSStringUtils.m in Sources */,
+				1C336EAF1F95DE7F0018D2E9 /* DemoSource.swift in Sources */,
 				1C7E632D1F945AD90031BABD /* UIViewController+Custom.m in Sources */,
+				1C336EA41F95D6310018D2E9 /* BaseNavigationController.swift in Sources */,
 				1C7E63BB1F945D550031BABD /* BaseViewController.m in Sources */,
 				1C336E9F1F95AE450018D2E9 /* VideoPlayerController.m in Sources */,
 				1C7E631D1F945AD90031BABD /* ImageUtils.m in Sources */,
@@ -473,12 +512,15 @@
 				1C7E632C1F945AD90031BABD /* UIView+Custom.m in Sources */,
 				1C7E631E1F945AD90031BABD /* DateUtils.m in Sources */,
 				1C6D812C1F94B085007AA712 /* WaterDropsView.swift in Sources */,
+				1C336EAA1F95D7BF0018D2E9 /* CoverA.swift in Sources */,
 				1C7E63211F945AD90031BABD /* FunctionUtils.m in Sources */,
 				1C7E63C51F94A2330031BABD /* DownLoadAnimationController.m in Sources */,
+				1C336EB21F95DFDF0018D2E9 /* PlayerCollectionViewCell.swift in Sources */,
 				1C7E62F41F9459D80031BABD /* TimeUtils.m in Sources */,
 				1C7E63281F945AD90031BABD /* UIView+KGViewExtend.m in Sources */,
 				1C7E62CE1F9456220031BABD /* AppDelegate.m in Sources */,
 				1C7E63201F945AD90031BABD /* NSNumber+Utils.m in Sources */,
+				1C336EA21F95D4DD0018D2E9 /* BaseNavigationController.m in Sources */,
 				1C7E63BF1F9484EE0031BABD /* AnimationViewController.m in Sources */,
 				1C7E62F01F9459D80031BABD /* SortType.m in Sources */,
 				1C7E62EF1F9459D80031BABD /* LBSUtils.m in Sources */,
@@ -630,7 +672,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "IOSEffect/third/IOSEffect-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -650,7 +693,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.golfd.IOSEffect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "IOSEffect/third/IOSEffect-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

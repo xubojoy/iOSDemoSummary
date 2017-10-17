@@ -72,13 +72,13 @@ public class MMPlayerView: UIView {
             return self.playerLayer.autoHideCoverType
         }
     }
-    public var videoGravity: AVLayerVideoGravity {
-        set {
-            self.playerLayer.videoGravity = newValue
-        } get {
-            return self.playerLayer.videoGravity
-        }
-    }
+//    public var videoGravity: AVLayerVideoGravity {
+//        set {
+//            self.playerLayer.videoGravity = newValue
+//        } get {
+//            return self.playerLayer.videoGravity as AVLayerVideoGravity
+//        }
+//    }
     public var thumbImage: UIImage? {
         set {
             self.playerLayer.thumbImageView.image = newValue

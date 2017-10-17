@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -195,20 +195,20 @@
 		17031D63440935DF2A34128C548CEC4C /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshComponent.m; path = MJRefresh/Base/MJRefreshComponent.m; sourceTree = "<group>"; };
 		1A021418F8DBC23FC8CEC03DA116ABD5 /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
 		1C54C934CB9E0CD9070C1689093FFDC7 /* Pods-IOSEffect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IOSEffect.release.xcconfig"; sourceTree = "<group>"; };
-		1CE4718D151F6DFC9042C751D75DBB83 /* JSDownloadView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JSDownloadView.modulemap; sourceTree = "<group>"; };
+		1CE4718D151F6DFC9042C751D75DBB83 /* JSDownloadView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JSDownloadView.modulemap; sourceTree = "<group>"; };
 		1D590F5FF727AAA3166663BEA478D1E0 /* MMPlayerPassViewPresentatinController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerPassViewPresentatinController.swift; path = MMPlayerView/Classes/Transition/PresentModal/ShowPassView/MMPlayerPassViewPresentatinController.swift; sourceTree = "<group>"; };
 		1FF152FB93E5E5C07C9C51E882D15FB6 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIViewController+Additions.h"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.h"; sourceTree = "<group>"; };
 		2331C9B5FE8F8BD2E04154641CE872F5 /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
-		2989F6A35AA60889FD23E73018462CC9 /* Pods_IOSEffect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IOSEffect.framework; path = "Pods-IOSEffect.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2989F6A35AA60889FD23E73018462CC9 /* Pods_IOSEffect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOSEffect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A97B76D07D78FB32DD92C9300EAF515 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C4DE422EE9EAA3D61D1DFABD442C23D /* Pods-IOSEffect.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-IOSEffect.modulemap"; sourceTree = "<group>"; };
+		2C4DE422EE9EAA3D61D1DFABD442C23D /* Pods-IOSEffect.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-IOSEffect.modulemap"; sourceTree = "<group>"; };
 		2D2A99C4190D0868261DA679DAE76DDA /* MMPlayerPassViewPushTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerPassViewPushTransition.swift; path = MMPlayerView/Classes/Transition/Navigation/ShowPassView/MMPlayerPassViewPushTransition.swift; sourceTree = "<group>"; };
 		2DCEAC019404C512F053E8748584276A /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
 		2E74F8EEA6B6025743F45EA8D09417F0 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 		2FE171AEA295D59E3E794722FAA6C9EF /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
 		31D5DD5887494FC0178F8B2F07842D12 /* IQBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.h; sourceTree = "<group>"; };
 		3292CC8DBF6352C2BF2B949CB548248F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		32CC43199279CB71D6BFDF2A899CEAF5 /* MMPlayerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MMPlayerView.modulemap; sourceTree = "<group>"; };
+		32CC43199279CB71D6BFDF2A899CEAF5 /* MMPlayerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MMPlayerView.modulemap; sourceTree = "<group>"; };
 		384E870CB0CB6A37E85C6AFF52F78E79 /* JSDownloadView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSDownloadView-dummy.m"; sourceTree = "<group>"; };
 		3B9AEAD58146479BDA2DC91BED58377D /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		3BCE651A7D47F20EFBD8126D854CDC8C /* MMPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerView.swift; path = MMPlayerView/Classes/MMPlayerView.swift; sourceTree = "<group>"; };
@@ -220,24 +220,24 @@
 		4716E0CE31C84A66C63A60F0E81514A9 /* IQKeyboardManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-umbrella.h"; sourceTree = "<group>"; };
 		473E805321EC3FA5DFA2E47D893788D1 /* MMPlayerPassViewPushConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerPassViewPushConfig.swift; path = MMPlayerView/Classes/Transition/Navigation/ShowPassView/MMPlayerPassViewPushConfig.swift; sourceTree = "<group>"; };
 		4DD9B2CABE87094892BD9FD100E9763E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FE691C33ED9A21A606A2C4D4364051F /* IQKeyboardManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = IQKeyboardManager.modulemap; sourceTree = "<group>"; };
+		4FE691C33ED9A21A606A2C4D4364051F /* IQKeyboardManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = IQKeyboardManager.modulemap; sourceTree = "<group>"; };
 		50AB1B2CEF6423238D817EF7E066DB3F /* IQKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardManager.m; path = IQKeyboardManager/IQKeyboardManager.m; sourceTree = "<group>"; };
 		537B516C88C6BD5846918232CCD1F405 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54ADFBFF2029781A867524DF004E0E1A /* MMPlayerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerProtocol.swift; path = MMPlayerView/Classes/MMPlayerProtocol.swift; sourceTree = "<group>"; };
 		5516DB2ECB979EC8575EC7C847AA639C /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
 		56C49C333A044C8B24C6C0B55E90A2C7 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIScrollView+Additions.m"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
 		59464A6EDFB3CB3D9D0A4DA9082F2877 /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
-		59483C923D67D6CE6265705C20726C6B /* MJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MJRefresh.modulemap; sourceTree = "<group>"; };
+		59483C923D67D6CE6265705C20726C6B /* MJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MJRefresh.modulemap; sourceTree = "<group>"; };
 		5E7B3603D7D2AE12BD67745B3B7B59BA /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
 		5EF1BBEC9B696C420167D2D7BCF10032 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		61AD41CA3AEB085A14ECF407536F4A27 /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
 		622A19DA3F724B2CEB26C3C5B65997AA /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
 		62CDCAFFCCEBFB30918D09AA10ED2803 /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
-		62F641AB560C235874E78DD314A6E106 /* JSDownloadView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSDownloadView.framework; path = JSDownloadView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F641AB560C235874E78DD314A6E106 /* JSDownloadView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSDownloadView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F093AC8C61DE6D7B21E3F6C141A698 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+IQKeyboardToolbar.h"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
-		640955FB2D35B7D2B6A19E8478E8D2A9 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJRefresh.framework; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		640955FB2D35B7D2B6A19E8478E8D2A9 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D16E8556A757DA85F7305FA761142A /* MMPlayerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMPlayerView-umbrella.h"; sourceTree = "<group>"; };
-		6D78946E547F59353ECB8C69F73125AA /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D78946E547F59353ECB8C69F73125AA /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D8FA99591C886C52D3FE269F79DD4EB /* MMPlayerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMPlayerView.xcconfig; sourceTree = "<group>"; };
 		70FDC744775F867932B9CDCB69B6521D /* MMPlayerPresentAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerPresentAnimator.swift; path = MMPlayerView/Classes/Transition/PresentModal/MMPlayerPresentAnimator.swift; sourceTree = "<group>"; };
 		728FEEE5ED79AA4DE0E6501F0B067784 /* Pods-IOSEffect-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IOSEffect-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -256,7 +256,7 @@
 		8FD3A2717BF83D69EFE5EB2E3BBFEEFB /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackStateFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
 		9118F84F120FF582B0BCA28F657661E4 /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
 		923F53151CB234043EBA6C8E8FDB600A /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		944B1AA685184EB79EE71704C1336A4E /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackStateFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
 		946B694963F3F227C9FA89A720BD652C /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoFooter.h; path = MJRefresh/Base/MJRefreshAutoFooter.h; sourceTree = "<group>"; };
 		952939F19411CBFAC2211838ECD13B69 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQNSArray+Sort.h"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.h"; sourceTree = "<group>"; };
@@ -277,7 +277,7 @@
 		B2C41DA884306EEE9EA4B2336F403685 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		B3EC8F7134A7DCDEF3B325524551BD3E /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
 		B50A903DB5CE0288AAE410670A296152 /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackGifFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
-		B56E16255851A08C1B515655A46922B3 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		B56E16255851A08C1B515655A46922B3 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
 		BAD556B85B32DD7D6B91108337D61EB7 /* MMPlayerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMPlayerView-prefix.pch"; sourceTree = "<group>"; };
 		BCD099148B5E26E9086140DB340ADD6A /* Pods-IOSEffect-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IOSEffect-resources.sh"; sourceTree = "<group>"; };
 		BDC77EB127335B271FCC249321ED6044 /* MMPlayerPassViewPresentConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerPassViewPresentConfig.swift; path = MMPlayerView/Classes/Transition/PresentModal/ShowPassView/MMPlayerPassViewPresentConfig.swift; sourceTree = "<group>"; };
@@ -322,7 +322,7 @@
 		EEA3914A81AE99B9F6FAE6CEACF7CDED /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIViewController+Additions.m"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.m"; sourceTree = "<group>"; };
 		EF5A8F93BB1793D18C7D457A52AB3C11 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
 		F06544DD6807CA3B183854AFC4231FCF /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
-		F0D53723FCFDFF2AC39FDF566EE0405A /* MMPlayerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MMPlayerView.framework; path = MMPlayerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D53723FCFDFF2AC39FDF566EE0405A /* MMPlayerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMPlayerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F21F4E80DB2B5381425364D8BC2C96E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5A36D62144D05E3CC840496C6B3F1CC /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
 		F62EF587E244D26B1F823377E3939D2B /* MJRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-umbrella.h"; sourceTree = "<group>"; };
@@ -330,7 +330,7 @@
 		F8A8DA70678AE6A5ED6043478D91CD45 /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
 		F8E1A076C2561926F3103C38707D9E58 /* MMPlayer+UIView+Shadow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MMPlayer+UIView+Shadow.swift"; path = "MMPlayerView/Classes/Extension/MMPlayer+UIView+Shadow.swift"; sourceTree = "<group>"; };
 		F955764F72612AD838689771CCF85C89 /* MMPlayer+UIView+Load.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MMPlayer+UIView+Load.swift"; path = "MMPlayerView/Classes/Extension/MMPlayer+UIView+Load.swift"; sourceTree = "<group>"; };
-		FA236C542538BED65EBB113D80C543BB /* IQKeyboardManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManager.framework; path = IQKeyboardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA236C542538BED65EBB113D80C543BB /* IQKeyboardManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQKeyboardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAF939E8AC168A503F354283869EBF6 /* JSDownloadView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSDownloadView-prefix.pch"; sourceTree = "<group>"; };
 		FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		FF14243752740360B087CBFE77C94978 /* MMPlayerBasePresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerBasePresentationController.swift; path = MMPlayerView/Classes/Transition/PresentModal/MMPlayerBasePresentationController.swift; sourceTree = "<group>"; };
@@ -429,7 +429,6 @@
 				833576344486A2B1E2800647A99591E5 /* Resources */,
 				B4853036311D1BBE085D04D5C8E55576 /* Support Files */,
 			);
-			name = SVProgressHUD;
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -478,7 +477,6 @@
 				A0E1DAF66351F007EA4BDDA06D7FFAAA /* Resources */,
 				E76DA6AEC6CF58C9BC89823D2AFAFD87 /* Support Files */,
 			);
-			name = MJRefresh;
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
@@ -550,7 +548,6 @@
 				D8C15313500D5384928408701157C162 /* Resources */,
 				CBF0BBB32A3D9685F5393148A8C66E6F /* Support Files */,
 			);
-			name = IQKeyboardManager;
 			path = IQKeyboardManager;
 			sourceTree = "<group>";
 		};
@@ -618,7 +615,6 @@
 				11E944CBEEC64D91A38E694DA31EE360 /* JSDownloadView.m */,
 				0EAFF16097F5028F73C2A19E17404261 /* Support Files */,
 			);
-			name = JSDownloadView;
 			path = JSDownloadView;
 			sourceTree = "<group>";
 		};
@@ -657,7 +653,6 @@
 				785054547015C5FC364205974F7B796F /* UIView+LayoutFit.swift */,
 				2959265328BAC8DB40DA2480FE216F87 /* Support Files */,
 			);
-			name = MMPlayerView;
 			path = MMPlayerView;
 			sourceTree = "<group>";
 		};
@@ -932,7 +927,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
+				TargetAttributes = {
+					FC5C55AE5A48B009D5103626DC548BC4 = {
+						LastSwiftMigration = 0900;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1244,7 +1244,8 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1493,6 +1494,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -1581,7 +1583,8 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
