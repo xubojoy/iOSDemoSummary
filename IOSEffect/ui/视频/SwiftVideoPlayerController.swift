@@ -29,8 +29,8 @@ class SwiftVideoPlayerController: UIViewController{
         
         let layout = UICollectionViewFlowLayout()
         //let layout = UICollectionViewFlowLayout()
-        let frame = CGRect(x:0, y:20, width: view.bounds.size.width,
-                           height:view.bounds.height-20)
+        let frame = CGRect(x:0, y:64, width: view.bounds.size.width,
+                           height:view.bounds.height-64)
         self.playerCollect = UICollectionView(frame: frame, collectionViewLayout:layout)
         self.playerCollect.delegate = self
         self.playerCollect.dataSource = self
@@ -43,7 +43,7 @@ class SwiftVideoPlayerController: UIViewController{
         //设置collectionView的内边距
         self.playerCollect.contentInset = UIEdgeInsetsMake(0, 5, 0, 5)
         
-        self.view.addSubview(playerCollect)
+        self.view.addSubview(self.playerCollect)
         
         
         playerCollect.addObserver(self, forKeyPath: "contentOffset", options: [.new], context: nil)
